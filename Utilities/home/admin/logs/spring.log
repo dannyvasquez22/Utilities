@@ -1,0 +1,292 @@
+2019-10-06 12:28:09.023  INFO 5076 --- [restartedMain] com.admin.UtilitiesApplication           : Starting UtilitiesApplication on DANNY with PID 5076 (C:\Users\DANNY\Documents\StsProjects\Utilities\target\classes started by DANNY in C:\Users\DANNY\Documents\StsProjects\Utilities)
+2019-10-06 12:28:09.167  INFO 5076 --- [restartedMain] com.admin.UtilitiesApplication           : No active profile set, falling back to default profiles: default
+2019-10-06 12:28:09.600  INFO 5076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-06 12:28:09.601  INFO 5076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-06 12:28:19.114  INFO 5076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-06 12:28:19.359  INFO 5076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 227ms. Found 2 repository interfaces.
+2019-10-06 12:28:19.360  INFO 5076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-06 12:28:19.400  INFO 5076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 1 repository interfaces.
+2019-10-06 12:28:25.432  INFO 5076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c7622cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 12:28:25.632  INFO 5076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$ebf66fff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 12:28:31.319  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-10-06 12:28:32.537  INFO 5076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-06 12:28:32.540  INFO 5076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-10-06 12:28:33.422  INFO 5076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Program Files\PostgreSQL\9.6\bin;C:\Program Files\PostgreSQL\9.6\lib;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\xampp\mysql\bin;C:\maven-3.5.3\bin;C:\Users\DANNY\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\DANNY\AppData\Roaming\npm;C:\Users\DANNY\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\Users\DANNY\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;D:\sts-bundle\sts-3.9.4.RELEASE;;.]
+2019-10-06 12:28:35.120  INFO 5076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-06 12:28:35.121  INFO 5076 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 25518 ms
+2019-10-06 12:28:44.143  INFO 5076 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-06 12:28:48.159  INFO 5076 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-10-06 12:28:48.170  INFO 5076 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-06 12:28:55.024  INFO 5076 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-06 12:28:59.427  INFO 5076 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-10-06 12:29:03.914  INFO 5076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 12:29:04.274  INFO 5076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-06 12:29:04.284  INFO 5076 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-06 12:29:04.323  INFO 5076 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-10-06 12:29:04.392  INFO 5076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 12:29:07.677  WARN 5076 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-06 12:29:08.387  INFO 5076 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-06 12:29:08.692  INFO 5076 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-06 12:29:10.150  INFO 5076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-06 12:29:11.752  INFO 5076 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-06 12:29:11.876  INFO 5076 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-06 12:29:12.103  INFO 5076 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-06 12:29:12.731  INFO 5076 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2019-10-06 12:29:12.748  INFO 5076 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2019-10-06 12:29:12.757  INFO 5076 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2019-10-06 12:29:13.414  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-10-06 12:29:13.419  INFO 5076 --- [restartedMain] com.admin.UtilitiesApplication           : Started UtilitiesApplication in 72.109 seconds (JVM running for 78.273)
+2019-10-06 12:42:55.414  INFO 5076 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-06 12:42:55.424  INFO 5076 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 12:42:55.426  INFO 5076 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 12:42:56.232  INFO 5076 --- [restartedMain] com.admin.UtilitiesApplication           : Starting UtilitiesApplication on DANNY with PID 5076 (C:\Users\DANNY\Documents\StsProjects\Utilities\target\classes started by DANNY in C:\Users\DANNY\Documents\StsProjects\Utilities)
+2019-10-06 12:42:56.233  INFO 5076 --- [restartedMain] com.admin.UtilitiesApplication           : No active profile set, falling back to default profiles: default
+2019-10-06 12:42:56.962  INFO 5076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-06 12:42:56.975  INFO 5076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 2 repository interfaces.
+2019-10-06 12:42:56.975  INFO 5076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-06 12:42:56.981  INFO 5076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
+2019-10-06 12:42:57.242  INFO 5076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c7622cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 12:42:57.251  INFO 5076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$ebf66fff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 12:42:57.497  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-10-06 12:42:57.501  INFO 5076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-06 12:42:57.502  INFO 5076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-10-06 12:42:57.539  INFO 5076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-06 12:42:57.540  INFO 5076 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1303 ms
+2019-10-06 12:42:57.864  INFO 5076 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-06 12:42:57.909  INFO 5076 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-10-06 12:42:58.000  INFO 5076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 12:42:58.037  INFO 5076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-06 12:42:58.041  INFO 5076 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-06 12:42:58.079  INFO 5076 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-10-06 12:42:58.121  INFO 5076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 12:42:58.369  WARN 5076 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-06 12:42:58.500  INFO 5076 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-06 12:42:58.572  INFO 5076 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-06 12:42:58.674  INFO 5076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-06 12:42:59.182  INFO 5076 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-06 12:42:59.186  INFO 5076 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-06 12:42:59.207  INFO 5076 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-06 12:42:59.350  INFO 5076 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2019-10-06 12:42:59.353  INFO 5076 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2019-10-06 12:42:59.360  INFO 5076 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2019-10-06 12:42:59.447  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-10-06 12:42:59.449  INFO 5076 --- [restartedMain] com.admin.UtilitiesApplication           : Started UtilitiesApplication in 3.271 seconds (JVM running for 904.304)
+2019-10-06 12:42:59.459  INFO 5076 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-06 12:42:59.491  INFO 5076 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-10-06 12:42:59.496  INFO 5076 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-06 12:42:59.499  INFO 5076 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 12:42:59.500  INFO 5076 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 14:55:18.527  INFO 10416 --- [restartedMain] com.admin.UtilitiesApplication           : Starting UtilitiesApplication on DANNY with PID 10416 (C:\Users\DANNY\Documents\StsProjects\Utilities\target\classes started by DANNY in C:\Users\DANNY\Documents\StsProjects\Utilities)
+2019-10-06 14:55:18.553  INFO 10416 --- [restartedMain] com.admin.UtilitiesApplication           : No active profile set, falling back to default profiles: default
+2019-10-06 14:55:18.618  INFO 10416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-06 14:55:18.618  INFO 10416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-06 14:55:20.018  INFO 10416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-06 14:55:20.101  INFO 10416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 2 repository interfaces.
+2019-10-06 14:55:20.102  INFO 10416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-06 14:55:20.112  INFO 10416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 1 repository interfaces.
+2019-10-06 14:55:21.118  INFO 10416 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6de74207] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 14:55:21.162  INFO 10416 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$ed678f39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 14:55:21.768  INFO 10416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-10-06 14:55:21.800  INFO 10416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-06 14:55:21.802  INFO 10416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-10-06 14:55:21.809  INFO 10416 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Program Files\PostgreSQL\9.6\bin;C:\Program Files\PostgreSQL\9.6\lib;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\xampp\mysql\bin;C:\maven-3.5.3\bin;C:\Users\DANNY\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\DANNY\AppData\Roaming\npm;C:\Users\DANNY\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\Users\DANNY\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;D:\sts-bundle\sts-3.9.4.RELEASE;;.]
+2019-10-06 14:55:21.991  INFO 10416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-06 14:55:21.991  INFO 10416 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3373 ms
+2019-10-06 14:55:22.735  INFO 10416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-06 14:55:22.817  INFO 10416 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-10-06 14:55:22.820  INFO 10416 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-06 14:55:22.982  INFO 10416 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-06 14:55:23.300  INFO 10416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-10-06 14:55:24.349  INFO 10416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 14:55:24.415  INFO 10416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-06 14:55:24.421  INFO 10416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-06 14:55:24.455  INFO 10416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-10-06 14:55:24.501  INFO 10416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 14:55:25.264  WARN 10416 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-06 14:55:25.465  INFO 10416 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-06 14:55:25.600  INFO 10416 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-06 14:55:25.898  INFO 10416 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-06 14:55:26.362  INFO 10416 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-06 14:55:26.430  INFO 10416 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-06 14:55:26.484  INFO 10416 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-06 14:55:26.965  INFO 10416 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2019-10-06 14:55:26.969  INFO 10416 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2019-10-06 14:55:26.971  INFO 10416 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2019-10-06 14:55:27.159  INFO 10416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-10-06 14:55:27.163  INFO 10416 --- [restartedMain] com.admin.UtilitiesApplication           : Started UtilitiesApplication in 9.344 seconds (JVM running for 10.901)
+2019-10-06 14:56:59.235  INFO 10416 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-06 14:56:59.237  INFO 10416 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-06 14:56:59.251  INFO 10416 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-10-06 14:56:59.424  INFO 10416 --- [http-nio-8081-exec-2] com.admin.controller.UserController      : Getting user
+2019-10-06 14:56:59.737  INFO 10416 --- [http-nio-8081-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-06 14:57:12.706  INFO 10416 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-10-06 14:57:12.714  INFO 10416 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-06 14:57:12.717  INFO 10416 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 14:57:12.719  INFO 10416 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 15:12:22.931  INFO 10768 --- [restartedMain] com.admin.UtilitiesApplication           : Starting UtilitiesApplication on DANNY with PID 10768 (C:\Users\DANNY\Documents\StsProjects\Utilities\target\classes started by DANNY in C:\Users\DANNY\Documents\StsProjects\Utilities)
+2019-10-06 15:12:22.936  INFO 10768 --- [restartedMain] com.admin.UtilitiesApplication           : No active profile set, falling back to default profiles: default
+2019-10-06 15:12:22.993  INFO 10768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-06 15:12:22.994  INFO 10768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-06 15:12:24.400  INFO 10768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-06 15:12:24.479  INFO 10768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 2 repository interfaces.
+2019-10-06 15:12:24.480  INFO 10768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-06 15:12:24.491  INFO 10768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 1 repository interfaces.
+2019-10-06 15:12:25.404  INFO 10768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d8609b36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 15:12:25.460  INFO 10768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$57e0e868] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 15:12:26.073  INFO 10768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-10-06 15:12:26.109  INFO 10768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-06 15:12:26.110  INFO 10768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-10-06 15:12:26.119  INFO 10768 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Program Files\PostgreSQL\9.6\bin;C:\Program Files\PostgreSQL\9.6\lib;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\xampp\mysql\bin;C:\maven-3.5.3\bin;C:\Users\DANNY\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\DANNY\AppData\Roaming\npm;C:\Users\DANNY\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\Users\DANNY\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;D:\sts-bundle\sts-3.9.4.RELEASE;;.]
+2019-10-06 15:12:26.302  INFO 10768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-06 15:12:26.302  INFO 10768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3308 ms
+2019-10-06 15:12:27.002  INFO 10768 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-06 15:12:27.074  INFO 10768 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-10-06 15:12:27.078  INFO 10768 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-06 15:12:27.251  INFO 10768 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-06 15:12:27.571  INFO 10768 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-10-06 15:12:28.250  INFO 10768 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 15:12:28.308  INFO 10768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-06 15:12:28.316  INFO 10768 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-06 15:12:28.352  INFO 10768 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-10-06 15:12:28.393  INFO 10768 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 15:12:29.086  WARN 10768 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-06 15:12:29.261  INFO 10768 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-06 15:12:29.384  INFO 10768 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-06 15:12:29.644  INFO 10768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-06 15:12:30.109  INFO 10768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-06 15:12:30.135  INFO 10768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-06 15:12:30.181  INFO 10768 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-06 15:12:30.620  INFO 10768 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2019-10-06 15:12:30.623  INFO 10768 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2019-10-06 15:12:30.626  INFO 10768 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2019-10-06 15:12:30.747  INFO 10768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-10-06 15:12:30.751  INFO 10768 --- [restartedMain] com.admin.UtilitiesApplication           : Started UtilitiesApplication in 8.406 seconds (JVM running for 9.653)
+2019-10-06 15:12:34.536  INFO 10768 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-06 15:12:34.538  INFO 10768 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-06 15:12:34.549  INFO 10768 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-10-06 15:12:34.589  INFO 10768 --- [http-nio-8081-exec-1] com.admin.controller.UserController      : Getting user
+2019-10-06 15:12:34.663  INFO 10768 --- [http-nio-8081-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-06 15:12:39.967  INFO 10768 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-10-06 15:12:39.974  INFO 10768 --- [RMI TCP Connection(7)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-06 15:12:39.978  INFO 10768 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 15:12:39.980  INFO 10768 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 15:20:10.537  INFO 7652 --- [restartedMain] com.admin.UtilitiesApplication           : Starting UtilitiesApplication on DANNY with PID 7652 (C:\Users\DANNY\Documents\StsProjects\Utilities\target\classes started by DANNY in C:\Users\DANNY\Documents\StsProjects\Utilities)
+2019-10-06 15:20:10.541  INFO 7652 --- [restartedMain] com.admin.UtilitiesApplication           : No active profile set, falling back to default profiles: default
+2019-10-06 15:20:10.612  INFO 7652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-06 15:20:10.613  INFO 7652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-06 15:20:12.055  INFO 7652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-06 15:20:12.137  INFO 7652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70ms. Found 2 repository interfaces.
+2019-10-06 15:20:12.138  INFO 7652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-06 15:20:12.148  INFO 7652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 1 repository interfaces.
+2019-10-06 15:20:13.044  INFO 7652 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2791c942] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 15:20:13.083  INFO 7652 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$a7121674] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 15:20:13.655  INFO 7652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-10-06 15:20:13.682  INFO 7652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-06 15:20:13.684  INFO 7652 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-10-06 15:20:13.694  INFO 7652 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Program Files\PostgreSQL\9.6\bin;C:\Program Files\PostgreSQL\9.6\lib;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\xampp\mysql\bin;C:\maven-3.5.3\bin;C:\Users\DANNY\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\DANNY\AppData\Roaming\npm;C:\Users\DANNY\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\Users\DANNY\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;D:\sts-bundle\sts-3.9.4.RELEASE;;.]
+2019-10-06 15:20:13.882  INFO 7652 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-06 15:20:13.882  INFO 7652 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3269 ms
+2019-10-06 15:20:14.580  INFO 7652 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-06 15:20:14.667  INFO 7652 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-10-06 15:20:14.670  INFO 7652 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-06 15:20:14.846  INFO 7652 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-06 15:20:15.165  INFO 7652 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-10-06 15:20:15.864  INFO 7652 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 15:20:15.919  INFO 7652 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-06 15:20:15.927  INFO 7652 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-06 15:20:15.963  INFO 7652 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-10-06 15:20:16.001  INFO 7652 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 15:20:16.699  WARN 7652 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-06 15:20:16.868  INFO 7652 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-06 15:20:16.986  INFO 7652 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-06 15:20:17.235  INFO 7652 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-06 15:20:17.697  INFO 7652 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-06 15:20:17.724  INFO 7652 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-06 15:20:17.772  INFO 7652 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-06 15:20:18.244  INFO 7652 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2019-10-06 15:20:18.247  INFO 7652 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2019-10-06 15:20:18.249  INFO 7652 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2019-10-06 15:20:18.369  INFO 7652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-10-06 15:20:18.373  INFO 7652 --- [restartedMain] com.admin.UtilitiesApplication           : Started UtilitiesApplication in 8.394 seconds (JVM running for 9.631)
+2019-10-06 15:20:25.049  INFO 7652 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-06 15:20:25.050  INFO 7652 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-06 15:20:25.060  INFO 7652 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-10-06 15:20:25.098  INFO 7652 --- [http-nio-8081-exec-1] com.admin.controller.UserController      : Getting user
+2019-10-06 15:20:25.172  INFO 7652 --- [http-nio-8081-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-06 15:20:36.095  INFO 7652 --- [http-nio-8081-exec-3] com.admin.controller.UserController      : Getting userLegay
+2019-10-06 15:20:36.104  INFO 7652 --- [http-nio-8081-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-06 15:20:44.562  INFO 7652 --- [http-nio-8081-exec-4] com.admin.controller.UserController      : Getting user
+2019-10-06 15:20:56.024  INFO 7652 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-10-06 15:20:56.032  INFO 7652 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-06 15:20:56.036  INFO 7652 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 15:20:56.037  INFO 7652 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 15:43:14.856  INFO 16760 --- [restartedMain] com.admin.UtilitiesApplication           : Starting UtilitiesApplication on DANNY with PID 16760 (C:\Users\DANNY\Documents\StsProjects\Utilities\target\classes started by DANNY in C:\Users\DANNY\Documents\StsProjects\Utilities)
+2019-10-06 15:43:14.862  INFO 16760 --- [restartedMain] com.admin.UtilitiesApplication           : No active profile set, falling back to default profiles: default
+2019-10-06 15:43:14.917  INFO 16760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-06 15:43:14.918  INFO 16760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-06 15:43:16.294  INFO 16760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-06 15:43:16.375  INFO 16760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 2 repository interfaces.
+2019-10-06 15:43:16.376  INFO 16760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-06 15:43:16.386  INFO 16760 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 1 repository interfaces.
+2019-10-06 15:43:17.348  INFO 16760 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ecd1555] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 15:43:17.435  INFO 16760 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8e4d6287] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 15:43:18.084  INFO 16760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-10-06 15:43:18.112  INFO 16760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-06 15:43:18.113  INFO 16760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-10-06 15:43:18.124  INFO 16760 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Program Files\PostgreSQL\9.6\bin;C:\Program Files\PostgreSQL\9.6\lib;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\xampp\mysql\bin;C:\maven-3.5.3\bin;C:\Users\DANNY\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\DANNY\AppData\Roaming\npm;C:\Users\DANNY\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\Users\DANNY\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;D:\sts-bundle\sts-3.9.4.RELEASE;;.]
+2019-10-06 15:43:18.304  INFO 16760 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-06 15:43:18.304  INFO 16760 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3386 ms
+2019-10-06 15:43:19.123  INFO 16760 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-06 15:43:19.210  INFO 16760 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-10-06 15:43:19.213  INFO 16760 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-06 15:43:19.394  INFO 16760 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-06 15:43:19.710  INFO 16760 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-10-06 15:43:20.431  INFO 16760 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 15:43:20.492  INFO 16760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-06 15:43:20.499  INFO 16760 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-06 15:43:20.530  INFO 16760 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-10-06 15:43:20.581  INFO 16760 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-06 15:43:21.346  WARN 16760 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-06 15:43:21.552  INFO 16760 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-06 15:43:21.683  INFO 16760 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-06 15:43:22.028  INFO 16760 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-06 15:43:22.639  INFO 16760 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-06 15:43:22.675  INFO 16760 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-06 15:43:22.745  INFO 16760 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-06 15:43:23.319  INFO 16760 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2019-10-06 15:43:23.323  INFO 16760 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2019-10-06 15:43:23.326  INFO 16760 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2019-10-06 15:43:23.443  INFO 16760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-10-06 15:43:23.447  INFO 16760 --- [restartedMain] com.admin.UtilitiesApplication           : Started UtilitiesApplication in 9.2 seconds (JVM running for 10.531)
+2019-10-06 15:45:05.538  INFO 16760 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-06 15:45:05.539  INFO 16760 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-06 15:45:05.550  INFO 16760 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-10-06 15:47:59.089  INFO 16760 --- [http-nio-8081-exec-5] com.admin.controller.SunatController     : Getting exchange_rate
+2019-10-06 15:48:06.203  INFO 16760 --- [http-nio-8081-exec-6] com.admin.controller.SunatController     : Getting exchange_rate
+2019-10-06 15:48:12.062  INFO 16760 --- [http-nio-8081-exec-8] com.admin.controller.SunatController     : Getting exchange_rate
+2019-10-06 15:48:17.796  INFO 16760 --- [http-nio-8081-exec-9] com.admin.controller.SunatController     : Getting exchange_rate
+2019-10-06 15:48:52.726  INFO 16760 --- [http-nio-8081-exec-1] com.admin.controller.SunatController     : Getting exchange_rate
