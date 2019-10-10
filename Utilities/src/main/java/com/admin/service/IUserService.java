@@ -1,12 +1,11 @@
 package com.admin.service;
 
-import java.util.List;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 import com.admin.model.User;
-import com.admin.model.legacy.UserLegacy;
 
-public interface IUserService {
+public interface IUserService extends ICRUD<User> {
 
-	public List<User> getUsers();	
-	public List<UserLegacy> getLegacyUsers();
+	Page<User> listPage(Pageable pageable);
 }

@@ -49,6 +49,7 @@ public class SunatServiceImpl implements ISunatService {
 
 	@Override
 	public UserSunat getUserSunat(String numero_documento) {
+		scrapSunat.getUserSunatHTMLUnit(numero_documento);
 		return scrapSunat.getUserSunat(numero_documento);
 	}
 }

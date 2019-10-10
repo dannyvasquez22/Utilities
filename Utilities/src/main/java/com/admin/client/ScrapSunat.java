@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.Map;
 
 import javax.imageio.ImageIO;
+import javax.imageio.ImageReader;
+//import javax.swing.ImageIcon;
 
 import org.jsoup.Connection;
 import org.jsoup.Connection.Method;
@@ -25,6 +27,17 @@ import com.admin.client.response.UserReniec;
 import com.admin.client.response.UserSunat;
 import com.admin.util.Constantes;
 import com.admin.util.PropertiesConfig;
+import com.gargoylesoftware.htmlunit.NicelyResynchronizingAjaxController;
+import com.gargoylesoftware.htmlunit.WebClient;
+import com.gargoylesoftware.htmlunit.html.HtmlButton;
+import com.gargoylesoftware.htmlunit.html.HtmlForm;
+import com.gargoylesoftware.htmlunit.html.HtmlHiddenInput;
+import com.gargoylesoftware.htmlunit.html.HtmlImage;
+import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.gargoylesoftware.htmlunit.html.HtmlTable;
+import com.gargoylesoftware.htmlunit.html.HtmlTableCell;
+import com.gargoylesoftware.htmlunit.html.HtmlTableRow;
+import com.gargoylesoftware.htmlunit.html.HtmlTextInput;
 
 import net.sourceforge.tess4j.ITesseract;
 import net.sourceforge.tess4j.Tesseract;
@@ -137,7 +150,7 @@ public class ScrapSunat {
 		return null;
 	} 
 	
-	public String getCatpcha() {
+	public String getCatpchaFromURL() {
 		
 		//String imageURL = "http://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/captcha?accion=image";   &nmagic=1
         String url_antigua = properties.CAPTCHA_URL;
@@ -154,6 +167,23 @@ public class ScrapSunat {
             
             return result;
         } catch (TesseractException | IOException e) {
+            System.err.println(e.getMessage());
+        }
+        
+        return null;
+	}
+	
+	public String getCatpchaFromImage(BufferedImage img) {
+        String result = "";
+
+        ITesseract instance = new Tesseract();
+
+        try {
+            result = instance.doOCR(img);
+            System.out.println(result);
+            
+            return result;
+        } catch (TesseractException e) {
             System.err.println(e.getMessage());
         }
         
@@ -290,4 +320,65 @@ public class ScrapSunat {
 		return datos;
 	}
 
+	@SuppressWarnings("resource")
+	public String getUserSunatHTMLUnit(String numero_documento) {
+		WebClient webClient = new WebClient();
+		HtmlPage htmlPage;
+		
+		try {
+			//PROPIEDADES
+			webClient.getOptions().setJavaScriptEnabled(true);
+			webClient.getOptions().setCssEnabled(false);
+			webClient.getCookieManager().setCookiesEnabled(true);
+			webClient.setAjaxController(new NicelyResynchronizingAjaxController());
+			webClient.getOptions().setThrowExceptionOnScriptError(false);
+			
+			htmlPage = webClient.getPage("https://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/frameCriterioBusqueda.jsp");
+			
+			//CAPTCHA
+			HtmlImage image = htmlPage.<HtmlImage>getFirstByXPath("//img[@src='captcha?accion=image']");
+			ImageReader img = image.getImageReader();
+			BufferedImage buf = img.read(0);
+//			ImageIcon icon = new ImageIcon(buf);
+			
+			//CONSULTAR
+			HtmlForm htmlForm = htmlPage.getElementByName("mainForm");
+			HtmlTextInput input = htmlForm.getInputByName("codigo");
+			input.setText(getCatpchaFromImage(buf).replace(" ", ""));
+			
+			HtmlHiddenInput hidden1 = (HtmlHiddenInput)htmlForm.getInputByName("accion");
+			hidden1.setValueAttribute("consPorRuc");
+			
+			HtmlHiddenInput hidden2 = (HtmlHiddenInput)htmlForm.getInputByName("nroRuc");
+			hidden2.setValueAttribute(numero_documento);
+			
+			HtmlButton button = (HtmlButton)htmlPage.createElement("button");
+			button.setAttribute("type", "submit");
+			
+			htmlForm.appendChild(button);
+			
+			htmlPage = button.click();
+			
+			webClient.waitForBackgroundJavaScript(10000);
+			
+			htmlPage = (HtmlPage)webClient.getCurrentWindow().getEnclosedPage();
+			
+			//MOSTRAR
+			System.out.println(htmlPage.asXml().toString());
+			
+			HtmlTable htmlTable = (HtmlTable)htmlPage.getByXPath("//table[@class='form-table']").get(2);
+			
+			for (int i = 0; i < 15; i++) {
+				HtmlTableRow tr = htmlTable.getRow(i);
+				for (int j = 0; j < tr.getChildElementCount(); j++) {
+					HtmlTableCell td = tr.getCell(j);
+					System.out.println(td.asText());
+				}
+			}
+			
+		} catch(Exception ex) {			
+		}
+		
+		return null;
+	}
 }

@@ -8,8 +8,6 @@ import java.util.List;
 
 import javax.validation.Valid;
 
-//import org.slf4j.Logger;
-//import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -30,45 +28,45 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.admin.exception.ModeloNotFoundException;
-import com.admin.model.User;
-import com.admin.service.IUserService;
+import com.admin.model.legacy.UserLegacy;
+import com.admin.service.IUserLegacyService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/usersLegacys")
 @Slf4j
-@Api(value = "Servicio REST para los usuarios.")
-public class UserController {
+@Api(value = "Servicio REST para los usuarios antiguos.")
+public class UserLegacyController {
 
 	@Autowired
-	private IUserService userService;
+	private IUserLegacyService userLegacyService;
 	
-	@ApiOperation("Retorna una lista de usuarios.")
+	@ApiOperation("Retorna una lista de usuarios antiguos.")
 	@GetMapping(value = "/list", produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<List<User>> getAll() {
-		log.info("Getting user");
-		return new ResponseEntity<List<User>>(userService.getAll(), HttpStatus.OK);
+	public ResponseEntity<List<UserLegacy>> getAll() {
+		log.info("Getting userLegay");
+		return new ResponseEntity<List<UserLegacy>>(userLegacyService.getAll(), HttpStatus.OK);
 	}
 	
 	@GetMapping(value="/pageable", produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<Page<User>> listarPageable(Pageable pageable){
-		Page<User> users;
-		users = userService.listPage(pageable);
-		return new ResponseEntity<Page<User>>(users, HttpStatus.OK);
+	public ResponseEntity<Page<UserLegacy>> listarPageable(Pageable pageable){
+		Page<UserLegacy> users;
+		users = userLegacyService.listPage(pageable);
+		return new ResponseEntity<Page<UserLegacy>>(users, HttpStatus.OK);
 	}
 	
 	@GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
-	public Resource<User> getById(@PathVariable("id") Integer id) {
-		User user = userService.getById(id);
+	public Resource<UserLegacy> getById(@PathVariable("id") Integer id) {
+		UserLegacy user = userLegacyService.getById(id);
 		
 		if (user == null) {
 			throw new ModeloNotFoundException("ID: " + id);
 		}
 		
-		Resource<User> resource = new Resource<User>(user);
+		Resource<UserLegacy> resource = new Resource<UserLegacy>(user);
 		ControllerLinkBuilder linkTo = linkTo(methodOn(this.getClass()).getById(id));
 		resource.add(linkTo.withRel("User-resource"));
 		
@@ -76,9 +74,9 @@ public class UserController {
 	}
 	
 	@PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<User> save(@Valid @RequestBody User User) {
-		User userSave = new User();
-		userSave = userService.save(User);
+	public ResponseEntity<UserLegacy> save(@Valid @RequestBody UserLegacy User) {
+		UserLegacy userSave = new UserLegacy();
+		userSave = userLegacyService.save(User);
 		
 		URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(userSave.getId()).toUri();
 		
@@ -86,24 +84,24 @@ public class UserController {
 		responseHeaders.setLocation(location);
 		
 //		return ResponseEntity.created(location).build();
-		return new ResponseEntity<User>(userSave, responseHeaders, HttpStatus.CREATED);
+		return new ResponseEntity<UserLegacy>(userSave, responseHeaders, HttpStatus.CREATED);
 	}
 	
 	@PutMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<Object> update(@Valid @RequestBody User User) {
-		userService.update(User);
+	public ResponseEntity<Object> update(@Valid @RequestBody UserLegacy User) {
+		userLegacyService.update(User);
 		
 		return new ResponseEntity<Object>(HttpStatus.OK);
 	}
 	
 	@DeleteMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public void delete(@PathVariable Integer id) {
-		User User = userService.getById(id);
+		UserLegacy User = userLegacyService.getById(id);
 		
 		if (User == null) {
 			throw new ModeloNotFoundException("ID: " + id);
 		} else {
-			userService.delete(id);
+			userLegacyService.delete(id);
 		}
 	}
 }
